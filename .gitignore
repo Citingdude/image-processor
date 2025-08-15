@@ -1,0 +1,28 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Vendor directory (if you use Go modules, usually not needed to commit)
+vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Node modules if you have any frontend parts
+node_modules/
+
+# Uploads folder (optional: if you don't want to commit uploaded files)
+uploads/
